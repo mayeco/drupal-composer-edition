@@ -14,8 +14,6 @@ phpmyadmin:
   image: nazarpc/phpmyadmin
   ports:
    - "8080:80"
-  environment:
-     - MYSQL_ROOT_PASSWORD=YOUR_PASSWORD_HERE
   links:
     - mariadb:mysql
 
@@ -24,5 +22,6 @@ mariadb:
   volumes:
    - ./mysql_data:/var/lib/mysql
   environment:
-     - MYSQL_ROOT_PASSWORD=YOUR_PASSWORD_HERE
-
+     - MYSQL_DATABASE=drupal8
+     - MYSQL_USER=drupal8
+     - MYSQL_PASSWORD=__PASSWORD_HERE__

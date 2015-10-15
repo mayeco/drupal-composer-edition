@@ -17,6 +17,10 @@
 html/sites/*/files
 html/sites/*/private
 
+# Ignore Webprofiler from composer
+html/modules/contrib/webprofiler/
+
+
 html/sites/*/settings*.php
 html/sites/*/services*.yml
 

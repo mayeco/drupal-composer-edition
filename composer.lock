@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "b427bca22eefb7670f4fc36bc34e0c0c",
+    "hash": "5803995cba484e4a5e55d1f43f6347a1",
     "content-hash": "64d2fbe48b575371eadca9072d378fdf",
     "packages": [
         {
@@ -662,19 +662,19 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/hechoendrupal/DrupalConsole.git",
-                "reference": "dd517bd787ad9b79de2b070bad7ef9c3655527ce"
+                "reference": "b119f58d6a2307435ccc49420a99afc30ec3738d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/hechoendrupal/DrupalConsole/zipball/dd517bd787ad9b79de2b070bad7ef9c3655527ce",
-                "reference": "dd517bd787ad9b79de2b070bad7ef9c3655527ce",
+                "url": "https://api.github.com/repos/hechoendrupal/DrupalConsole/zipball/b119f58d6a2307435ccc49420a99afc30ec3738d",
+                "reference": "b119f58d6a2307435ccc49420a99afc30ec3738d",
                 "shasum": ""
             },
             "require": {
                 "alchemy/zippy": "0.2.*@dev",
                 "composer/installers": "~1.0",
                 "herrera-io/phar-update": "1.*",
-                "kriswallsmith/buzz": ">=0.15",
+                "kriswallsmith/buzz": "~0.15",
                 "php": ">=5.5.9",
                 "phpseclib/phpseclib": "2.*",
                 "stecman/symfony-console-completion": "^0.5.1",
@@ -690,7 +690,7 @@
                 "symfony/http-foundation": "2.7.*",
                 "symfony/translation": "2.7.*",
                 "symfony/yaml": "2.7.*",
-                "twig/twig": "~1.18"
+                "twig/twig": "^1.22.2"
             },
             "bin": [
                 "bin/console"
@@ -719,15 +719,26 @@
                 {
                     "name": "Drupal Console Contributors",
                     "homepage": "https://github.com/hechoendrupal/DrupalConsole/graphs/contributors"
+                },
+                {
+                    "name": "Eduardo Garcia",
+                    "email": "enzo@enzolutions.com",
+                    "homepage": "http://enzolutions.com/"
+                },
+                {
+                    "name": "Omar Aguirre",
+                    "email": "omersguchigu@gmail.com"
                 }
             ],
-            "description": "Drupal Console",
+            "description": "The Drupal Console is a command line interface to generate boilerplate code and interact with a Drupal 8 installation.",
+            "homepage": "http://drupalconsole.com/",
             "keywords": [
                 "console",
                 "development",
-                "drupal"
+                "drupal",
+                "symfony"
             ],
-            "time": "2015-10-14 22:59:00"
+            "time": "2015-10-15 12:02:22"
         },
         {
             "name": "drupal/core",
@@ -735,12 +746,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/drupal-composer/drupal-core.git",
-                "reference": "3ea524a197f825fb777c2d6ab9eb1b97287ef87b"
+                "reference": "e7149508be950a5eda39102c54f07d8d3f74ca92"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/drupal-composer/drupal-core/zipball/3ea524a197f825fb777c2d6ab9eb1b97287ef87b",
-                "reference": "3ea524a197f825fb777c2d6ab9eb1b97287ef87b",
+                "url": "https://api.github.com/repos/drupal-composer/drupal-core/zipball/e7149508be950a5eda39102c54f07d8d3f74ca92",
+                "reference": "e7149508be950a5eda39102c54f07d8d3f74ca92",
                 "shasum": ""
             },
             "require": {
@@ -889,7 +900,7 @@
                 "GPL-2.0+"
             ],
             "description": "Drupal is an open source content management platform powering millions of websites and applications.",
-            "time": "2015-10-14 13:25:10"
+            "time": "2015-10-15 18:04:55"
         },
         {
             "name": "drupal/webprofiler",
@@ -1286,16 +1297,16 @@
         },
         {
             "name": "guzzlehttp/promises",
-            "version": "1.0.2",
+            "version": "1.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/guzzle/promises.git",
-                "reference": "97fe7210def29451ec74923b27e552238defd75a"
+                "reference": "b1e1c0d55f8083c71eda2c28c12a228d708294ea"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/promises/zipball/97fe7210def29451ec74923b27e552238defd75a",
-                "reference": "97fe7210def29451ec74923b27e552238defd75a",
+                "url": "https://api.github.com/repos/guzzle/promises/zipball/b1e1c0d55f8083c71eda2c28c12a228d708294ea",
+                "reference": "b1e1c0d55f8083c71eda2c28c12a228d708294ea",
                 "shasum": ""
             },
             "require": {
@@ -1333,7 +1344,7 @@
             "keywords": [
                 "promise"
             ],
-            "time": "2015-08-15 19:37:21"
+            "time": "2015-10-15 22:28:00"
         },
         {
             "name": "guzzlehttp/psr7",
@@ -3868,16 +3879,16 @@
         },
         {
             "name": "zendframework/zend-stdlib",
-            "version": "2.7.3",
+            "version": "2.7.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/zendframework/zend-stdlib.git",
-                "reference": "8ac0c77ff567fcf49b58689ee3bfa7595be102bc"
+                "reference": "cae029346a33663b998507f94962eb27de060683"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zendframework/zend-stdlib/zipball/8ac0c77ff567fcf49b58689ee3bfa7595be102bc",
-                "reference": "8ac0c77ff567fcf49b58689ee3bfa7595be102bc",
+                "url": "https://api.github.com/repos/zendframework/zend-stdlib/zipball/cae029346a33663b998507f94962eb27de060683",
+                "reference": "cae029346a33663b998507f94962eb27de060683",
                 "shasum": ""
             },
             "require": {
@@ -3922,7 +3933,7 @@
                 "stdlib",
                 "zf2"
             ],
-            "time": "2015-09-25 04:06:33"
+            "time": "2015-10-15 15:57:32"
         }
     ],
     "packages-dev": [],

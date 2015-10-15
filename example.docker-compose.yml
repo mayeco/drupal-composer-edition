@@ -1,0 +1,28 @@
+web:
+  image: mayeco/drupal8-php7
+  ports:
+   - "80:80"
+  volumes:
+   - ./html:/var/www/html
+   - ./vendor:/var/www/vendor
+   - ./src:/var/www/src
+   - ./bin:/var/www/bin
+  links:
+    - mariadb:mysql
+
+phpmyadmin:
+  image: nazarpc/phpmyadmin
+  ports:
+   - "8080:80"
+  environment:
+     - MYSQL_ROOT_PASSWORD=YOUR_PASSWORD_HERE
+  links:
+    - mariadb:mysql
+
+mariadb:
+  image: mariadb:latest
+  volumes:
+   - ./mysql_data:/var/lib/mysql
+  environment:
+     - MYSQL_ROOT_PASSWORD=YOUR_PASSWORD_HERE
+

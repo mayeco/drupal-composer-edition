@@ -1,0 +1,59 @@
+{
+    "name": "drupal-8",
+    "description": "Drupal 8",
+    "type": "project",
+    "license": "GPL-2.0+",
+    "require": {
+        "composer/installers": "^1.0.21",
+        "drupal/core": "8.0.x-dev",
+
+        "drupal/console": "dev-master",
+        "drush/drush": "dev-master",
+
+        "drupal/webprofiler": "8.2.x-dev"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "config": {
+        "preferred-install": "dist",
+        "autoloader-suffix": "Drupal8",
+        "bin-dir": "bin"
+    },
+    "extra": {
+        "installer-paths": {
+            "html/core": [
+                "type:drupal-core"
+            ],
+            "html/modules/contrib/{$name}": [
+                "type:drupal-module"
+            ],
+            "html/profiles/contrib/{$name}": [
+                "type:drupal-profile"
+            ],
+            "html/themes/contrib/{$name}": [
+                "type:drupal-theme"
+            ]
+        }
+    },
+    "scripts": {
+        "post-autoload-dump": [
+            "Drupal\\Core\\Composer\\Composer::ensureHtaccess"
+        ],
+        "post-update-cmd": [
+            "scripts/clean-web-core.sh"
+        ],
+        "post-install-cmd": [
+            "scripts/clean-web-core.sh",
+            "scripts/post-install.sh"
+        ]
+    },
+    "autoload": {
+        "psr-4": {"": "src/"}
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://packagist.drupal-composer.org"
+        }
+    ]
+}

@@ -691,3 +691,14 @@ $settings['container_yamls'][] = __DIR__ . '/services.yml';
 # if (file_exists(__DIR__ . '/settings.local.php')) {
 #   include __DIR__ . '/settings.local.php';
 # }
+
+# $settings['trusted_host_patterns'] = array(
+#     '^example\.com$',
+#     '^.+\.example\.com$',
+# );
+#
+# error_reporting(E_ALL);
+#
+# ini_set('display_errors', TRUE);
+# ini_set('display_startup_errors', TRUE);
+#

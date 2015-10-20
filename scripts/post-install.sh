@@ -18,8 +18,6 @@ fi
 if [ ! -f docker-compose.yml ]
   then
     cp example.docker-compose.yml docker-compose.yml
-    # TODO: Needs review. for now add password manually
-    # sed -i "s/__PASSWORD_HERE__/$(cat /dev/urandom | tr -dc 'a-z0-9' | fold -w 14 | head -n 1)/g" docker-compose.yml
 fi
 
 # Prepare the files directory for installation

@@ -7,7 +7,6 @@
 
 # Ignore MySQL data
 /mysql_data/*
-!mysql_data/.gitkeep
 
 # Ignore custom files directory
 /html/*/custom/*

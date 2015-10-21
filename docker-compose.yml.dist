@@ -5,7 +5,6 @@ web:
   volumes:
    - ./html:/var/www/html
    - ./vendor:/var/www/vendor
-   - ./src:/var/www/src
    - ./bin:/var/www/bin
   links:
     - mariadb:mysql
@@ -22,6 +21,8 @@ mariadb:
   volumes:
    - ./mysql_data:/var/lib/mysql
   environment:
+     - MYSQL_ROOT_PASSWORD=__ROOT_PASSWORD_HERE__
      - MYSQL_DATABASE=drupal8
      - MYSQL_USER=drupal8
      - MYSQL_PASSWORD=__PASSWORD_HERE__
+

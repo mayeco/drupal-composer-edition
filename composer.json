@@ -10,7 +10,8 @@
         "drupal/console": "dev-master",
         "drush/drush": "dev-master",
 
-        "drupal/webprofiler": "8.2.x-dev"
+        "drupal/webprofiler": "8.2.x-dev",
+        "drupal/devel": "8.x-1.x-dev"
     },
     "minimum-stability": "dev",
     "prefer-stable": true,

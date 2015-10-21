@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "7fca82bf1aa11a6ad826702c7d22baca",
-    "content-hash": "64d2fbe48b575371eadca9072d378fdf",
+    "hash": "c928933c9806dd21f441edc00a94835b",
+    "content-hash": "174091bebca899290009512da129e3fe",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -901,6 +901,54 @@
             ],
             "description": "Drupal is an open source content management platform powering millions of websites and applications.",
             "time": "2015-10-20 20:17:55"
+        },
+        {
+            "name": "drupal/devel",
+            "version": "dev-8.x-1.x",
+            "source": {
+                "type": "git",
+                "url": "http://git.drupal.org/project/devel",
+                "reference": "0a8f5a457dc9543c1b6dadf6f82782644a4277e3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "http://ftp.drupal.org/files/projects/devel-8.x-1.x-dev.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "drupal/core": "8.*"
+            },
+            "replace": {
+                "drupal/devel_generate": "self.version",
+                "drupal/devel_node_access": "self.version",
+                "drupal/kint": "self.version"
+            },
+            "suggest": {
+                "drupal/core": "Required by drupal/devel_generate, drupal/devel_node_access, drupal/kint",
+                "drupal/menu_ui": "Required by drupal/devel_node_access"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-8.x-1.x": "8.1.x-dev"
+                }
+            },
+            "notification-url": "https://packagist.drupal-composer.org/downloads/",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Moshe Weitzman",
+                    "email": "weitzman@tejasa.com",
+                    "homepage": "https://github.com/weitzman",
+                    "role": "Maintainer"
+                }
+            ],
+            "description": "Various blocks, pages, and functions for developers.",
+            "homepage": "http://drupal.org/project/devel",
+            "time": "2015-10-19 15:30:41"
         },
         {
             "name": "drupal/webprofiler",
@@ -3895,7 +3943,8 @@
         "drupal/core": 20,
         "drupal/console": 20,
         "drush/drush": 20,
-        "drupal/webprofiler": 20
+        "drupal/webprofiler": 20,
+        "drupal/devel": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,

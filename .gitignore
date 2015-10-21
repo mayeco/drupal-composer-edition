@@ -19,6 +19,9 @@ html/sites/*/private
 # Ignore Webprofiler from composer
 html/modules/contrib/webprofiler/
 
+# Ignore Devel module from composer
+html/modules/contrib/devel/
+
 
 html/sites/*/settings*.php
 html/sites/*/services*.yml

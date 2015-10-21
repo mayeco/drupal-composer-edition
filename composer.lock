@@ -662,12 +662,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/hechoendrupal/DrupalConsole.git",
-                "reference": "11e5fc34d6333de075889392e66c32add23b4d34"
+                "reference": "2b6285bdf36e1e41c04abc458ef30fd18d9fca5e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/hechoendrupal/DrupalConsole/zipball/11e5fc34d6333de075889392e66c32add23b4d34",
-                "reference": "11e5fc34d6333de075889392e66c32add23b4d34",
+                "url": "https://api.github.com/repos/hechoendrupal/DrupalConsole/zipball/2b6285bdf36e1e41c04abc458ef30fd18d9fca5e",
+                "reference": "2b6285bdf36e1e41c04abc458ef30fd18d9fca5e",
                 "shasum": ""
             },
             "require": {
@@ -738,7 +738,7 @@
                 "drupal",
                 "symfony"
             ],
-            "time": "2015-10-20 20:52:08"
+            "time": "2015-10-21 08:26:56"
         },
         {
             "name": "drupal/core",
@@ -908,7 +908,7 @@
             "source": {
                 "type": "git",
                 "url": "http://git.drupal.org/project/devel",
-                "reference": "0a8f5a457dc9543c1b6dadf6f82782644a4277e3"
+                "reference": "21a48a0da183fe1407989c5ced6ef04d071c02f8"
             },
             "dist": {
                 "type": "zip",
@@ -948,7 +948,7 @@
             ],
             "description": "Various blocks, pages, and functions for developers.",
             "homepage": "http://drupal.org/project/devel",
-            "time": "2015-10-19 15:30:41"
+            "time": "2015-10-21 11:19:33"
         },
         {
             "name": "drupal/webprofiler",
@@ -988,12 +988,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/drush-ops/drush.git",
-                "reference": "4017fe6b80b1e58137f98c82ae0cf3ff8fcfa8d1"
+                "reference": "c5cac649e8d2aab3e2d26769e6590c33d088ec6a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/drush-ops/drush/zipball/4017fe6b80b1e58137f98c82ae0cf3ff8fcfa8d1",
-                "reference": "4017fe6b80b1e58137f98c82ae0cf3ff8fcfa8d1",
+                "url": "https://api.github.com/repos/drush-ops/drush/zipball/c5cac649e8d2aab3e2d26769e6590c33d088ec6a",
+                "reference": "c5cac649e8d2aab3e2d26769e6590c33d088ec6a",
                 "shasum": ""
             },
             "require": {
@@ -1069,7 +1069,7 @@
             ],
             "description": "Drush is a command line shell and scripting interface for Drupal, a veritable Swiss Army knife designed to make life easier for those of us who spend some of our working hours hacking away at the command prompt.",
             "homepage": "http://www.drush.org",
-            "time": "2015-10-10 23:20:53"
+            "time": "2015-10-21 18:25:37"
         },
         {
             "name": "easyrdf/easyrdf",

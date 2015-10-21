@@ -17,7 +17,7 @@ fi
 # Prepare your docker-compose.yml
 if [ ! -f docker-compose.yml ]
   then
-    cp example.docker-compose.yml docker-compose.yml
+    cp docker-compose.yml.dist docker-compose.yml
 fi
 
 # Prepare the files directory for installation

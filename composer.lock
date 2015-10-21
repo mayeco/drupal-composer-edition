@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "5803995cba484e4a5e55d1f43f6347a1",
+    "hash": "7fca82bf1aa11a6ad826702c7d22baca",
     "content-hash": "64d2fbe48b575371eadca9072d378fdf",
     "packages": [
         {
@@ -662,12 +662,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/hechoendrupal/DrupalConsole.git",
-                "reference": "0943e5d244b1617254d73670732c22593eae3927"
+                "reference": "11e5fc34d6333de075889392e66c32add23b4d34"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/hechoendrupal/DrupalConsole/zipball/0943e5d244b1617254d73670732c22593eae3927",
-                "reference": "0943e5d244b1617254d73670732c22593eae3927",
+                "url": "https://api.github.com/repos/hechoendrupal/DrupalConsole/zipball/11e5fc34d6333de075889392e66c32add23b4d34",
+                "reference": "11e5fc34d6333de075889392e66c32add23b4d34",
                 "shasum": ""
             },
             "require": {
@@ -738,7 +738,7 @@
                 "drupal",
                 "symfony"
             ],
-            "time": "2015-10-20 03:02:42"
+            "time": "2015-10-20 20:52:08"
         },
         {
             "name": "drupal/core",
@@ -746,12 +746,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/drupal-composer/drupal-core.git",
-                "reference": "0c187011b7d0b8301f2d715cdc2720d8c4d380ca"
+                "reference": "d239360de615569b6bbf4def146b1f35f40ac16d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/drupal-composer/drupal-core/zipball/0c187011b7d0b8301f2d715cdc2720d8c4d380ca",
-                "reference": "0c187011b7d0b8301f2d715cdc2720d8c4d380ca",
+                "url": "https://api.github.com/repos/drupal-composer/drupal-core/zipball/d239360de615569b6bbf4def146b1f35f40ac16d",
+                "reference": "d239360de615569b6bbf4def146b1f35f40ac16d",
                 "shasum": ""
             },
             "require": {
@@ -900,7 +900,7 @@
                 "GPL-2.0+"
             ],
             "description": "Drupal is an open source content management platform powering millions of websites and applications.",
-            "time": "2015-10-19 23:58:46"
+            "time": "2015-10-20 20:17:55"
         },
         {
             "name": "drupal/webprofiler",

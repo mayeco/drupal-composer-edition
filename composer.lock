@@ -662,12 +662,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/hechoendrupal/DrupalConsole.git",
-                "reference": "2b6285bdf36e1e41c04abc458ef30fd18d9fca5e"
+                "reference": "50f7d9b186532ae3e7a5312d4c1a555c0284215f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/hechoendrupal/DrupalConsole/zipball/2b6285bdf36e1e41c04abc458ef30fd18d9fca5e",
-                "reference": "2b6285bdf36e1e41c04abc458ef30fd18d9fca5e",
+                "url": "https://api.github.com/repos/hechoendrupal/DrupalConsole/zipball/50f7d9b186532ae3e7a5312d4c1a555c0284215f",
+                "reference": "50f7d9b186532ae3e7a5312d4c1a555c0284215f",
                 "shasum": ""
             },
             "require": {
@@ -738,7 +738,7 @@
                 "drupal",
                 "symfony"
             ],
-            "time": "2015-10-21 08:26:56"
+            "time": "2015-10-24 02:05:07"
         },
         {
             "name": "drupal/core",
@@ -746,12 +746,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/drupal-composer/drupal-core.git",
-                "reference": "d239360de615569b6bbf4def146b1f35f40ac16d"
+                "reference": "75fa31ea35fdd9c7f95eb1d58d4641477a6be1ee"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/drupal-composer/drupal-core/zipball/d239360de615569b6bbf4def146b1f35f40ac16d",
-                "reference": "d239360de615569b6bbf4def146b1f35f40ac16d",
+                "url": "https://api.github.com/repos/drupal-composer/drupal-core/zipball/75fa31ea35fdd9c7f95eb1d58d4641477a6be1ee",
+                "reference": "75fa31ea35fdd9c7f95eb1d58d4641477a6be1ee",
                 "shasum": ""
             },
             "require": {
@@ -832,6 +832,7 @@
                 "drupal/help": "self.version",
                 "drupal/history": "self.version",
                 "drupal/image": "self.version",
+                "drupal/inline_form_errors": "self.version",
                 "drupal/language": "self.version",
                 "drupal/link": "self.version",
                 "drupal/locale": "self.version",
@@ -872,6 +873,7 @@
             "require-dev": {
                 "behat/mink": "~1.6",
                 "behat/mink-goutte-driver": "~1.2",
+                "jcalderonzumba/gastonjs": "^1.1@dev",
                 "mikey179/vfsstream": "~1.2",
                 "phpunit/phpunit": "~4.8",
                 "symfony/css-selector": "2.7.*"
@@ -900,7 +902,7 @@
                 "GPL-2.0+"
             ],
             "description": "Drupal is an open source content management platform powering millions of websites and applications.",
-            "time": "2015-10-20 20:17:55"
+            "time": "2015-10-24 03:26:25"
         },
         {
             "name": "drupal/devel",
@@ -988,12 +990,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/drush-ops/drush.git",
-                "reference": "c5cac649e8d2aab3e2d26769e6590c33d088ec6a"
+                "reference": "d3496ce59cec55f11f60c1fa3ac49e4f4d7d473a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/drush-ops/drush/zipball/c5cac649e8d2aab3e2d26769e6590c33d088ec6a",
-                "reference": "c5cac649e8d2aab3e2d26769e6590c33d088ec6a",
+                "url": "https://api.github.com/repos/drush-ops/drush/zipball/d3496ce59cec55f11f60c1fa3ac49e4f4d7d473a",
+                "reference": "d3496ce59cec55f11f60c1fa3ac49e4f4d7d473a",
                 "shasum": ""
             },
             "require": {
@@ -1069,7 +1071,7 @@
             ],
             "description": "Drush is a command line shell and scripting interface for Drupal, a veritable Swiss Army knife designed to make life easier for those of us who spend some of our working hours hacking away at the command prompt.",
             "homepage": "http://www.drush.org",
-            "time": "2015-10-21 18:25:37"
+            "time": "2015-10-23 18:54:16"
         },
         {
             "name": "easyrdf/easyrdf",

@@ -746,12 +746,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/drupal-composer/drupal-core.git",
-                "reference": "75fa31ea35fdd9c7f95eb1d58d4641477a6be1ee"
+                "reference": "bd6654a8c4333a4a949a7bf63ba09dbc5e3da4e0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/drupal-composer/drupal-core/zipball/75fa31ea35fdd9c7f95eb1d58d4641477a6be1ee",
-                "reference": "75fa31ea35fdd9c7f95eb1d58d4641477a6be1ee",
+                "url": "https://api.github.com/repos/drupal-composer/drupal-core/zipball/bd6654a8c4333a4a949a7bf63ba09dbc5e3da4e0",
+                "reference": "bd6654a8c4333a4a949a7bf63ba09dbc5e3da4e0",
                 "shasum": ""
             },
             "require": {
@@ -874,6 +874,7 @@
                 "behat/mink": "~1.6",
                 "behat/mink-goutte-driver": "~1.2",
                 "jcalderonzumba/gastonjs": "^1.1@dev",
+                "jcalderonzumba/mink-phantomjs-driver": "dev-master#10d7c48c9a4129463052321b52450d98983c4332",
                 "mikey179/vfsstream": "~1.2",
                 "phpunit/phpunit": "~4.8",
                 "symfony/css-selector": "2.7.*"
@@ -902,7 +903,7 @@
                 "GPL-2.0+"
             ],
             "description": "Drupal is an open source content management platform powering millions of websites and applications.",
-            "time": "2015-10-24 03:26:25"
+            "time": "2015-10-24 05:41:14"
         },
         {
             "name": "drupal/devel",

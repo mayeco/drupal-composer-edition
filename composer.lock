@@ -662,12 +662,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/hechoendrupal/DrupalConsole.git",
-                "reference": "50f7d9b186532ae3e7a5312d4c1a555c0284215f"
+                "reference": "cd256bfa1eb0905d02a06ee3e210b0f31dc99739"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/hechoendrupal/DrupalConsole/zipball/50f7d9b186532ae3e7a5312d4c1a555c0284215f",
-                "reference": "50f7d9b186532ae3e7a5312d4c1a555c0284215f",
+                "url": "https://api.github.com/repos/hechoendrupal/DrupalConsole/zipball/cd256bfa1eb0905d02a06ee3e210b0f31dc99739",
+                "reference": "cd256bfa1eb0905d02a06ee3e210b0f31dc99739",
                 "shasum": ""
             },
             "require": {
@@ -738,7 +738,7 @@
                 "drupal",
                 "symfony"
             ],
-            "time": "2015-10-24 02:05:07"
+            "time": "2015-10-25 16:30:54"
         },
         {
             "name": "drupal/core",
@@ -746,12 +746,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/drupal-composer/drupal-core.git",
-                "reference": "bd6654a8c4333a4a949a7bf63ba09dbc5e3da4e0"
+                "reference": "a886187573e40bc664a37520bb55ba0c570862dc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/drupal-composer/drupal-core/zipball/bd6654a8c4333a4a949a7bf63ba09dbc5e3da4e0",
-                "reference": "bd6654a8c4333a4a949a7bf63ba09dbc5e3da4e0",
+                "url": "https://api.github.com/repos/drupal-composer/drupal-core/zipball/a886187573e40bc664a37520bb55ba0c570862dc",
+                "reference": "a886187573e40bc664a37520bb55ba0c570862dc",
                 "shasum": ""
             },
             "require": {
@@ -903,7 +903,7 @@
                 "GPL-2.0+"
             ],
             "description": "Drupal is an open source content management platform powering millions of websites and applications.",
-            "time": "2015-10-24 05:41:14"
+            "time": "2015-10-25 18:35:55"
         },
         {
             "name": "drupal/devel",
@@ -991,12 +991,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/drush-ops/drush.git",
-                "reference": "d3496ce59cec55f11f60c1fa3ac49e4f4d7d473a"
+                "reference": "d605a3557bd52f177e2e50342649d4f12521872b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/drush-ops/drush/zipball/d3496ce59cec55f11f60c1fa3ac49e4f4d7d473a",
-                "reference": "d3496ce59cec55f11f60c1fa3ac49e4f4d7d473a",
+                "url": "https://api.github.com/repos/drush-ops/drush/zipball/d605a3557bd52f177e2e50342649d4f12521872b",
+                "reference": "d605a3557bd52f177e2e50342649d4f12521872b",
                 "shasum": ""
             },
             "require": {
@@ -1072,7 +1072,7 @@
             ],
             "description": "Drush is a command line shell and scripting interface for Drupal, a veritable Swiss Army knife designed to make life easier for those of us who spend some of our working hours hacking away at the command prompt.",
             "homepage": "http://www.drush.org",
-            "time": "2015-10-23 18:54:16"
+            "time": "2015-10-25 11:28:59"
         },
         {
             "name": "easyrdf/easyrdf",

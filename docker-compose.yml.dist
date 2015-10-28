@@ -1,5 +1,5 @@
 web:
-  image: mayeco/drupal8-php7
+  image: mayeco/drupal-8
   ports:
    - "80:80"
   volumes:
@@ -25,4 +25,3 @@ mariadb:
      - MYSQL_DATABASE=drupal8
      - MYSQL_USER=drupal8
      - MYSQL_PASSWORD=__PASSWORD_HERE__
-

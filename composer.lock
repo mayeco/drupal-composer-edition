@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "c928933c9806dd21f441edc00a94835b",
-    "content-hash": "174091bebca899290009512da129e3fe",
+    "hash": "e9b595a58b0e046d0cb5f66f8fe96ab2",
+    "content-hash": "700be0f537d85dda400a10f5a5af4787",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -71,17 +71,20 @@
         },
         {
             "name": "composer/installers",
-            "version": "v1.0.21",
+            "version": "v1.0.22",
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/installers.git",
-                "reference": "d64e23fce42a4063d63262b19b8e7c0f3b5e4c45"
+                "reference": "bd9b14f094c89c8b5804a4e41edeb7853bb85046"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/installers/zipball/d64e23fce42a4063d63262b19b8e7c0f3b5e4c45",
-                "reference": "d64e23fce42a4063d63262b19b8e7c0f3b5e4c45",
+                "url": "https://api.github.com/repos/composer/installers/zipball/bd9b14f094c89c8b5804a4e41edeb7853bb85046",
+                "reference": "bd9b14f094c89c8b5804a4e41edeb7853bb85046",
                 "shasum": ""
+            },
+            "require": {
+                "composer-plugin-api": "1.0.0"
             },
             "replace": {
                 "roundcube/plugin-installer": "*",
@@ -91,9 +94,9 @@
                 "composer/composer": "1.0.*@dev",
                 "phpunit/phpunit": "4.1.*"
             },
-            "type": "composer-installer",
+            "type": "composer-plugin",
             "extra": {
-                "class": "Composer\\Installers\\Installer",
+                "class": "Composer\\Installers\\Plugin",
                 "branch-alias": {
                     "dev-master": "1.0-dev"
                 }
@@ -162,7 +165,7 @@
                 "zend",
                 "zikula"
             ],
-            "time": "2015-02-18 17:17:01"
+            "time": "2015-10-29 23:28:48"
         },
         {
             "name": "composer/semver",
@@ -328,16 +331,16 @@
         },
         {
             "name": "doctrine/cache",
-            "version": "v1.5.0",
+            "version": "v1.5.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/cache.git",
-                "reference": "eb8a73619af4f1c8711e2ce482f5de3643258a1f"
+                "reference": "2b9cec5a5e722010cbebc91713d4c11eaa064d5e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/cache/zipball/eb8a73619af4f1c8711e2ce482f5de3643258a1f",
-                "reference": "eb8a73619af4f1c8711e2ce482f5de3643258a1f",
+                "url": "https://api.github.com/repos/doctrine/cache/zipball/2b9cec5a5e722010cbebc91713d4c11eaa064d5e",
+                "reference": "2b9cec5a5e722010cbebc91713d4c11eaa064d5e",
                 "shasum": ""
             },
             "require": {
@@ -394,7 +397,7 @@
                 "cache",
                 "caching"
             ],
-            "time": "2015-10-28 11:27:45"
+            "time": "2015-11-02 18:35:48"
         },
         {
             "name": "doctrine/collections",
@@ -662,12 +665,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/hechoendrupal/DrupalConsole.git",
-                "reference": "bc5dd0056c2c8a1c31814b3ebfd0f21363a57815"
+                "reference": "1cbc426b762c1651baeef50b8a3a513984426da9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/hechoendrupal/DrupalConsole/zipball/bc5dd0056c2c8a1c31814b3ebfd0f21363a57815",
-                "reference": "bc5dd0056c2c8a1c31814b3ebfd0f21363a57815",
+                "url": "https://api.github.com/repos/hechoendrupal/DrupalConsole/zipball/1cbc426b762c1651baeef50b8a3a513984426da9",
+                "reference": "1cbc426b762c1651baeef50b8a3a513984426da9",
                 "shasum": ""
             },
             "require": {
@@ -738,7 +741,7 @@
                 "drupal",
                 "symfony"
             ],
-            "time": "2015-10-28 21:19:06"
+            "time": "2015-11-03 03:13:35"
         },
         {
             "name": "drupal/core",
@@ -746,12 +749,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/drupal-composer/drupal-core.git",
-                "reference": "cb08fa6491039997e188044aba6be709d5e3b15c"
+                "reference": "43a4aa7b5174f4236441bf603e459f9a88fb9755"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/drupal-composer/drupal-core/zipball/cb08fa6491039997e188044aba6be709d5e3b15c",
-                "reference": "cb08fa6491039997e188044aba6be709d5e3b15c",
+                "url": "https://api.github.com/repos/drupal-composer/drupal-core/zipball/43a4aa7b5174f4236441bf603e459f9a88fb9755",
+                "reference": "43a4aa7b5174f4236441bf603e459f9a88fb9755",
                 "shasum": ""
             },
             "require": {
@@ -903,41 +906,17 @@
                 "GPL-2.0+"
             ],
             "description": "Drupal is an open source content management platform powering millions of websites and applications.",
-            "time": "2015-10-28 22:24:31"
+            "time": "2015-11-02 20:16:07"
         },
         {
             "name": "drupal/devel",
             "version": "dev-8.x-1.x",
             "source": {
                 "type": "git",
-                "url": "http://git.drupal.org/project/devel",
+                "url": "http://git.drupal.org/project/devel.git",
                 "reference": "21a48a0da183fe1407989c5ced6ef04d071c02f8"
             },
-            "dist": {
-                "type": "zip",
-                "url": "http://ftp.drupal.org/files/projects/devel-8.x-1.x-dev.zip",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "drupal/core": "8.*"
-            },
-            "replace": {
-                "drupal/devel_generate": "self.version",
-                "drupal/devel_node_access": "self.version",
-                "drupal/kint": "self.version"
-            },
-            "suggest": {
-                "drupal/core": "Required by drupal/devel_generate, drupal/devel_node_access, drupal/kint",
-                "drupal/menu_ui": "Required by drupal/devel_node_access"
-            },
             "type": "drupal-module",
-            "extra": {
-                "branch-alias": {
-                    "dev-8.x-1.x": "8.1.x-dev"
-                }
-            },
-            "notification-url": "https://packagist.drupal-composer.org/downloads/",
             "license": [
                 "GPL-2.0+"
             ],
@@ -951,6 +930,11 @@
             ],
             "description": "Various blocks, pages, and functions for developers.",
             "homepage": "http://drupal.org/project/devel",
+            "support": {
+                "issues": "http://drupal.org/project/devel",
+                "irc": "irc://irc.freenode.org/drupal-contribute",
+                "source": "http://cgit.drupalcode.org/devel"
+            },
             "time": "2015-10-21 11:19:33"
         },
         {
@@ -958,32 +942,18 @@
             "version": "dev-8.x-2.x",
             "source": {
                 "type": "git",
-                "url": "http://git.drupal.org/project/webprofiler",
-                "reference": "1ea4fe42955494e47767b24c04b8f67a97f0fbf7"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "http://ftp.drupal.org/files/projects/webprofiler-8.x-2.x-dev.zip",
-                "reference": null,
-                "shasum": null
+                "url": "http://git.drupal.org/project/webprofiler.git",
+                "reference": "bb8808d7330f68bba57044fa119be4d05c49adde"
             },
             "require": {
-                "drupal/core": "8.*",
                 "symfony/stopwatch": "2.4.*"
             },
             "type": "drupal-module",
-            "extra": {
-                "branch-alias": {
-                    "dev-8.x-2.x": "8.2.x-dev"
-                }
-            },
-            "notification-url": "https://packagist.drupal-composer.org/downloads/",
             "license": [
                 "GPL-2.0+"
             ],
             "description": "Drupal Web Profiler.",
-            "homepage": "https://www.drupal.org/project/webprofiler",
-            "time": "2015-10-26 17:35:42"
+            "time": "2015-11-02 08:18:58"
         },
         {
             "name": "drush/drush",
@@ -991,12 +961,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/drush-ops/drush.git",
-                "reference": "75aa74f4fb7fba171e5c9a64dbbc5acced72f668"
+                "reference": "2ea05f626ff9eece28fb0ca9294cf7df42ae9fdf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/drush-ops/drush/zipball/75aa74f4fb7fba171e5c9a64dbbc5acced72f668",
-                "reference": "75aa74f4fb7fba171e5c9a64dbbc5acced72f668",
+                "url": "https://api.github.com/repos/drush-ops/drush/zipball/2ea05f626ff9eece28fb0ca9294cf7df42ae9fdf",
+                "reference": "2ea05f626ff9eece28fb0ca9294cf7df42ae9fdf",
                 "shasum": ""
             },
             "require": {
@@ -1004,11 +974,11 @@
                 "php": ">=5.4.5",
                 "psy/psysh": "~0.5",
                 "symfony/var-dumper": "^2.6.3",
-                "symfony/yaml": "~2.2"
+                "symfony/yaml": "2.7.*"
             },
             "require-dev": {
                 "phpunit/phpunit": ">=3.5",
-                "symfony/process": "2.4.5"
+                "symfony/process": "2.7.*"
             },
             "suggest": {
                 "drush/config-extra": "Provides configuration workflow commands, such as config-merge.",
@@ -1072,7 +1042,7 @@
             ],
             "description": "Drush is a command line shell and scripting interface for Drupal, a veritable Swiss Army knife designed to make life easier for those of us who spend some of our working hours hacking away at the command prompt.",
             "homepage": "http://www.drush.org",
-            "time": "2015-10-28 21:15:42"
+            "time": "2015-11-03 03:39:51"
         },
         {
             "name": "easyrdf/easyrdf",
@@ -1399,16 +1369,16 @@
         },
         {
             "name": "guzzlehttp/psr7",
-            "version": "1.2.0",
+            "version": "1.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/guzzle/psr7.git",
-                "reference": "4ef919b0cf3b1989523138b60163bbcb7ba1ff7e"
+                "reference": "4d0bdbe1206df7440219ce14c972aa57cc5e4982"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/psr7/zipball/4ef919b0cf3b1989523138b60163bbcb7ba1ff7e",
-                "reference": "4ef919b0cf3b1989523138b60163bbcb7ba1ff7e",
+                "url": "https://api.github.com/repos/guzzle/psr7/zipball/4d0bdbe1206df7440219ce14c972aa57cc5e4982",
+                "reference": "4d0bdbe1206df7440219ce14c972aa57cc5e4982",
                 "shasum": ""
             },
             "require": {
@@ -1453,7 +1423,7 @@
                 "stream",
                 "uri"
             ],
-            "time": "2015-08-15 19:32:36"
+            "time": "2015-11-03 01:34:55"
         },
         {
             "name": "herrera-io/json",
@@ -3580,16 +3550,16 @@
         },
         {
             "name": "twig/twig",
-            "version": "v1.22.3",
+            "version": "v1.23.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/twigphp/Twig.git",
-                "reference": "ebfc36b7e77b0c1175afe30459cf943010245540"
+                "reference": "5868cd822fd6cf626d5f805439575f9c323cee2a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/twigphp/Twig/zipball/ebfc36b7e77b0c1175afe30459cf943010245540",
-                "reference": "ebfc36b7e77b0c1175afe30459cf943010245540",
+                "url": "https://api.github.com/repos/twigphp/Twig/zipball/5868cd822fd6cf626d5f805439575f9c323cee2a",
+                "reference": "5868cd822fd6cf626d5f805439575f9c323cee2a",
                 "shasum": ""
             },
             "require": {
@@ -3602,7 +3572,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.22-dev"
+                    "dev-master": "1.23-dev"
                 }
             },
             "autoload": {
@@ -3637,7 +3607,7 @@
             "keywords": [
                 "templating"
             ],
-            "time": "2015-10-13 07:07:02"
+            "time": "2015-10-29 23:29:01"
         },
         {
             "name": "zendframework/zend-diactoros",

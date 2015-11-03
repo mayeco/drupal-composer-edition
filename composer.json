@@ -10,7 +10,7 @@
         "drupal/console": "dev-master",
         "drush/drush": "dev-master",
 
-        "drupal/webprofiler": "8.2.x-dev",
+        "drupal/webprofiler": "8.x-2.x-dev",
         "drupal/devel": "8.x-1.x-dev"
     },
     "minimum-stability": "dev",
@@ -53,8 +53,13 @@
     },
     "repositories": [
         {
-            "type": "composer",
-            "url": "https://packagist.drupal-composer.org"
+            "url": "http://git.drupal.org/project/webprofiler.git",
+            "type": "vcs"
+        },
+        {
+            "url": "http://git.drupal.org/project/devel.git",
+            "type": "vcs"
         }
     ]
 }
+

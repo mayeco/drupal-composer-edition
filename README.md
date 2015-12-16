@@ -7,17 +7,29 @@ A Drupal 8 Composer Edition (plus Docker)
 
 ## Platform Requirements
 
-[Composer](https://getcomposer.org)
+[Composer](https://getcomposer.org) - https://getcomposer.org
 
 		composer --version
 
-[Docker](http://www.docker.com/)
+*Output*
+
+![Imgur](http://i.imgur.com/DdJpKRw.png?1)
+
+[Docker](http://www.docker.com/) - http://www.docker.com/
 
 		docker version
 
-[Docker Compose](https://docs.docker.com/compose/)
+*Output*
+
+![Imgur](http://i.imgur.com/lRE5GCH.png?1)
+
+[Docker Compose](https://docs.docker.com/compose/) - https://docs.docker.com/compose/
 
 		docker-compose --version
+
+*Output*
+
+![Imgur](http://i.imgur.com/T5jTWKf.png?1)
 
 ## Instalation
 

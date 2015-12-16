@@ -39,4 +39,13 @@ A Drupal 8 Composer Edition (plus Docker)
     composer install --ignore-platform-reqs
     docker-compose up
 
-## Go and Play... http://localhost
+### Install Drupal
+
+*Output*
+
+![Imgur](http://i.imgur.com/BzXwEXL.png?1)
+
+
+## Go and Play...
+
+[http://localhost](http://localhost)

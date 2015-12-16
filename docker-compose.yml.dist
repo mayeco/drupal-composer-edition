@@ -7,21 +7,21 @@ web:
    - ./vendor:/var/www/vendor
    - ./bin:/var/www/bin
   links:
-    - mariadb:mysql
+    - database:mysql
 
 phpmyadmin:
   image: nazarpc/phpmyadmin
   ports:
    - "8080:80"
   links:
-    - mariadb:mysql
+    - database:mysql
 
-mariadb:
-  image: mariadb:latest
+database:
+  image: percona:5.6
   volumes:
    - ./mysql_data:/var/lib/mysql
   environment:
-     - MYSQL_ROOT_PASSWORD=__ROOT_PASSWORD_HERE__
+     - MYSQL_ROOT_PASSWORD=__PASSWORD_HERE__
      - MYSQL_DATABASE=drupal8
      - MYSQL_USER=drupal8
      - MYSQL_PASSWORD=__PASSWORD_HERE__

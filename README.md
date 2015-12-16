@@ -37,3 +37,6 @@ A Drupal 8 Composer Edition (plus Docker)
     cd drupal-composer-edition
     git clone https://github.com/mayeco/drupal-composer-edition.git .
     composer install --ignore-platform-reqs
+    docker-compose up
+
+## Go and Play... http://localhost
